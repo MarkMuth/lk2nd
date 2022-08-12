@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+#include <skeleton.dtsi>
+
+/ {
+	qcom,msm-id = <239 0>;
+	qcom,board-id = <8087 0> , <8087 4>;
+
+	model = "Huawei RIO-L01";
+	compatible = "huawei,rio", "qcom,msm8939", "lk2nd,device";
+};
